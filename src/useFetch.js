@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react'
-const API_ENDPOINT = `https://www.omdbapi.com/?apikey=dc0d8404`
+const API_ENDPOINT = `http://www.omdbapi.com/?apikey=dc0d8404`
 
 const useFetch = (urlParams) => {
   const [isLoading, setIsLoading] = useState(true)
