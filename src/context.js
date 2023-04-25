@@ -2,7 +2,7 @@
 import React, { useState, useContext, useEffect } from 'react'
 // make sure to use https
 import useFetch from './useFetch'
-export const API_ENDPOINT = `http://www.omdbapi.com/?apikey=dc0d8404`
+export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=dc0d8404`
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
